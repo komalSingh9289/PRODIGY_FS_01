@@ -3,13 +3,12 @@
   The application is built using React and demonstrates form validation, user authentication, and responsive design using CSS Grid. </p>
 
 <h2>Table of Contents</h2>
->> Overview
->> Features
->> Technologies Used
->> Project Structure
->> Getting Started
->> Usage
->> Screenshots
+1. Overview
+2. Features
+3. Technologies Used
+4. Getting Started
+5. Usage
+6. Screenshots
 
 # Overview
 The project provides a user-friendly interface for Secure User Authentication using MERN.
@@ -30,26 +29,6 @@ Form validations, error messages, and responsive design make this project a soli
 >> MongoDb : To store user data.
 >> Nodejs & expressjs: For backend
 
-# Project Structure
-
-project-root/
-├── public/             
-│   └── index.html
-├── src/
-│   ├── components/
-│   │   ├── Login.js              # Login form component
-│   │   └── Register.js           # Registration form component
-│   ├── assets/
-│   │   └── images/
-│   │       └── home.svg
-│   │       └── register.svg
-│   │       └── profile.svg
-│   ├── context/
-│   │   └── AuthContext.js        # Authentication context
-│   ├── App.js                    # Main app component
-│   ├── index.js                  # Entry point
-│   └── styles.css                # Styling
-└── README.md
 
 # Getting Started
 
