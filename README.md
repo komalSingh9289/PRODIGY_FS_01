@@ -70,4 +70,9 @@ Update API URLs in Login.js and Register.js as needed.
 >> Logout: End the session using the logout feature.
 
 # Screenshots
+![Screenshot (140)](https://github.com/user-attachments/assets/419ee8c7-7414-41c8-8eab-c69d8c3df5e7)
+![Screenshot (141)](https://github.com/user-attachments/assets/3f4c0c1d-bb1b-4ef6-9d8e-5cf4a4b8d891)
+![Screenshot (142)](https://github.com/user-attachments/assets/92a59599-2565-45b6-a965-8a2031dea88f)
+![Screenshot (143)](https://github.com/user-attachments/assets/481a4a71-38e0-4495-a338-b79af044a298)
+
 
