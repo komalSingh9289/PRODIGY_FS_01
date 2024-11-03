@@ -1,0 +1,137 @@
+/* src/Welcome.css */
+body {
+  margin: 0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #f1f1f1;
+}
+
+.welcome-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0.4rem;
+  height:100vh;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333; /* Dark text color */
+}
+
+p {
+  color: #666; /* Lighter text color */
+  font-size: 0.85rem;
+}
+a{
+  text-decoration: none;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.button {
+  padding: 10px 15px;
+  font-size: 0.85rem;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.login-button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.logout-button {
+  background-color: #af4c4c; /* Green */
+  color: white;
+}
+
+.register-button {
+  background-color: #008CBA; /* Blue */
+  color: white;
+}
+
+.button:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.login-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+.logout-button:hover {
+  background-color: #a04545; /* Darker green on hover */
+}
+
+.register-button:hover {
+  background-color: #007bb5; /* Darker blue on hover */
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.container {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin-left: auto; /* Center horizontally */
+  margin-right: auto; /* Center horizontally */
+}
+
+.form {
+  padding:0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-field {
+  padding: 0.30rem;
+  margin: 0.25rem 0;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.80rem;
+}
+
+.input-field:focus {
+  border-color: #4CAF50; /* Green border on focus */
+  outline: none; /* Remove default outline */
+}
+
+.home{
+  margin-top:2rem ;
+  width: 50%;
+
+}
+.profile{
+  width: 20%;
+}
+
+.girl {
+  width: 50%;
+  max-width: 400px;
+}
+
+
+
+
+
